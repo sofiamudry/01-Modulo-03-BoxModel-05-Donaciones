@@ -1,0 +1,58 @@
+body {
+    background-color: #ebe7fc;
+}
+
+main {
+    position: absolute;
+    font-family: 'Courier Prime';
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 5px 30px 40px #cdc7ef;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    margin: 200px 0px 0px 200px;
+    /* este text align hace que el footer y h2 se centren, solo paso cuando meti la palabra "continue" dentro de un <p>, con la palabra dentro del footer no funcionaba */
+    text-align: center;
+}
+
+h2 {
+    font-size: 12px;
+    margin: 60px 50px 40px 50px;
+    /* line-height para el interlineado  */
+    line-height: 17px; 
+}
+
+section {
+    font-family: 'roboto';
+    text-align: center;
+    width: 240px;
+    font-size: 9px;
+    margin: 30px 30px 0px 30px;
+}
+
+span {
+    text-align: center;
+    color: gray;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    padding: 11px 12px;
+    margin: 0px 2px 0px 2px;
+}
+
+.select-cost, .select-continue {
+    background-color: #7563f6;
+    font-weight: 500;
+    color: rgb(227, 227, 227);
+    border: none;
+}
+
+.select-continue {
+    position: absolute;
+    font-size: 10px;
+    width: 190px;
+    height: 30px;
+    border-radius: 2px;
+    margin: 20px 30px 0px 55px;
+    box-shadow: 0px 2px 7px #bab2e7;
+}
